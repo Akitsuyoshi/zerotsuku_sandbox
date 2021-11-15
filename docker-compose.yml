@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+ note:
+  build:
+   context: .
+  ports:
+  - 8888:8888
+  volumes:
+  - ./:/home/jovyan/work
